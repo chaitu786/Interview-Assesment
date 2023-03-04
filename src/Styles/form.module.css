@@ -1,0 +1,67 @@
+* {
+   margin-top: 35px;
+}
+.commonStyleDiv,
+.commonStyleDivLast {
+   text-align: left;
+   /* margin: 20px 0 0 0; */
+}
+.commonStyleDivLast1 {
+   margin-top: -3px;
+}
+.commonStyleDivLast2 {
+   margin-top: -5px;
+}
+.mainContainer {
+   width: 30%;
+   margin: auto;
+   box-shadow: 5px 0px 10px #00000029;
+   border-radius: 20px;
+   padding: 10px 10px 40px 50px;
+}
+.mainContainer > p {
+   color: #222222;
+   font-size: 29.2px;
+   text-align: left;
+   font: normal normal bold 29.2px/36.5px Inter;
+}
+input {
+   width: 90%;
+   margin-top: 10px;
+   height: 45px;
+   border-radius: 5px;
+   border-color: #5a5a5a99;
+   font-size: 17px;
+   padding-left: 15px;
+}
+label {
+   font-size: 22px;
+   font: normal normal medium 22px/26px Inter;
+}
+.button,
+.button2 {
+   width: 90%;
+   height: 40px;
+   margin-top: 20px;
+   background-color: #2a6ab4;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.button2 {
+   margin-left: -50px;
+}
+.errorFeedback,
+.note {
+   color: red;
+}
+.button:active {
+   border: 2px solid pink;
+}
+img {
+   height: 100px;
+   width: 150px;
+}
